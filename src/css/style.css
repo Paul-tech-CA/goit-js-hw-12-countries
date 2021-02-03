@@ -1,10 +1,22 @@
 body {
   min-height: 100vh;
+  font-size: 24px;
   /* background-color: tomato; */
 }
 
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: #fff;
+img {
+  width: 400px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+input{
+  display: inline-block;
+  font-size: 25px;
+  margin: 50px;
+  background-color: rgba(107, 168, 226, 0.473);
+}
+
+.countries{
+  font-weight: bold;
 }
