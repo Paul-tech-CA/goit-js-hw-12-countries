@@ -1,7 +1,7 @@
 body {
   min-height: 100vh;
   font-size: 24px;
-  /* background-color: tomato; */
+  background-color: rgba(137, 218, 221, 0.486);
 }
 
 img {
@@ -10,13 +10,13 @@ img {
   margin-top: 40px;
 }
 
-input{
+input {
   display: inline-block;
   font-size: 25px;
   margin: 50px;
-  background-color: rgba(107, 168, 226, 0.473);
+  background-color: rgba(141, 226, 107, 0.384);
 }
 
-.countries{
+.countries {
   font-weight: bold;
 }
