@@ -8,7 +8,7 @@ const debounce = require("lodash.debounce");
 refs.searchForm.addEventListener("input", debounce(debouncedInput, 500));
 
 function debouncedInput(event) {
-  event.preventDefault();
+  // event.preventDefault();
 
   const inputValue = event.target.value;
   refs.countriesList.innerHTML = "";
